@@ -1,0 +1,18 @@
+nav{
+    text-align: end;
+    /* align-items:end; */
+    width: 100vh;
+}
+
+header{
+    background-color: #712a2b;
+    
+}
+
+.abc{
+    color: aliceblue;
+    display: flex;
+    gap:1rem;
+    height: 50px;
+    
+}
