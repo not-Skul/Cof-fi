@@ -1,28 +1,33 @@
-from flask import Flask
-from markupsafe import escape
-from flask import render_template
 import psycopg2
+from psycopg2 import Error
+from flask import Flask, render_template
 
-app = Flask(__name__)
-conn = psycopg2.connect(user="Postgres",
+try:
+    app = Flask(__name__)
+    connection = psycopg2.connect(user="postgres",
                                   password="12345678",
                                   host="127.0.0.1",
                                   port="5432",
                                   database="postgres")
 
-cur = conn.cursor()
+    cursor = connection.cursor()
+    command = '''SELECT NAME,coffee_price,img_url,location FROM  CAFE'''
+    res = cursor.execute(command)
+    connection.commit()
+    list_of_cafe = cursor.fetchall()
 
-cur.execute("CREATE TABLE test (id serial PRIMARY KEY, num integer, data varchar);")
+    @app.route("/")
+    def phone_home():
+        return render_template("hello.html",res = list_of_cafe)
 
-@app.route("/")
-def home():
-    return "<h1>This is your First page</h1>"
 
-@app.route("/<name>")
-def nya(name):
-    return f'hello {escape(name)}'
+except (Exception, Error) as error:
+    print("Error while connecting to PostgreSQL", error)
+finally:
+    if (connection):
+        cursor.close()
+        connection.close()
+        print("PostgreSQL connection is closed")
 
-@app.route("/hello")
-@app.route("/hello/<name>")
-def hello(name=None):
-    return render_template('hello.html',person=name)
+
+

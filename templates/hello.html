@@ -6,12 +6,22 @@
     <link rel="stylesheet" href="../static/hello.css">
 </head>
 <body>
-    {% if true: %}
-        <h1>hello there</h1>
-    {% endif %}
-    {%for items in var1 %}
-    <h1>this {{items[0]}}</h1>
+    <div class="navbar">
+        <div class="grid-item2" id="icon"><img src="../static/coffee-cup.png" alt="Icon" height="50px" width="50px"></div>
+        <div class="grid-item2"><h1>coffee it is</h1></div>
+        <div class="grid-item2" id="about"><a href="#">About</a> <a href="#">contact</a></div>
+    </div>
+
+    {%for item in res %}
+    <div class="grid-container">
+        <div class="grid-items1"><img src="{{item[2]}}" alt="Coffee is brewing" id="cafe-image"></div>
+        <div class="grid-items2"><h3>{{item[0]}}</h3></div>
+        <div class="grid-items3"><h3>{{item[3]}}</h3></div>
+        <div class="grid-items4"><h3>{{item[1]}}</h3></div>
+     </div>
     {% endfor %}
-    <img src= "{{ photo }}" alt="Image">
+
+    
+
     </body>
 </html>

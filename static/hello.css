@@ -1,381 +1,91 @@
-#MacBook
-
-{position: relative;
-width: 1728px;
-height: 1117px;
-
-background: #FFFFFF;}
-
-
-#Rectangle1
-
-{position: absolute;
-width: 1728px;
-height: 88px;
-left: 0px;
-top: 0px;
-
-background: #712A2B;}
-
-
- #Cof-fi
-
-{position: absolute;
-width: 552px;
-height: 58px;
-left: 90px;
-top: 19px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 48px;
-line-height: 58px;
-/* identical to box height */
-
-color: #FFFFFF;}
-
-
-
-/* Coffee
-
-Keywords: drink, cup, mug, tea, cafe, hot, beverage
-*/
-
-position: absolute;
-width: 61px;
-height: 66px;
-left: 29px;
-top: 10px;
-
-background: #712A2B;
-
-
-/* Icon */
-
-position: absolute;
-left: 8.33%;
-right: 4.17%;
-top: 4.17%;
-bottom: 12.5%;
-
-border: 4px solid #F3F3F3;
-
-
-/* Home */
-
-position: absolute;
-width: 97px;
-height: 29px;
-left: 1369px;
-top: 28px;
-
-font-family: 'Inter';
-font-style: italic;
-font-weight: 500;
-font-size: 24px;
-line-height: 29px;
-/* identical to box height */
-
-color: #FFFFFF;
-
-
-
-/* About us */
-
-position: absolute;
-width: 118px;
-height: 35px;
-left: 1466px;
-top: 30px;
-
-font-family: 'Inter';
-font-style: italic;
-font-weight: 500;
-font-size: 16px;
-line-height: 19px;
-
-color: #FFFFFF;
-
-
-
-/* Rectangle 2 */
-
-box-sizing: border-box;
-
-position: absolute;
-width: 755px;
-height: 73px;
-left: 529px;
-top: 117px;
-
-background: rgba(113, 42, 43, 0.35);
-border: 1px solid #000000;
-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-border-radius: 28px;
-
-
-/* Search
-
-Keywords: find, magnifier, magnifying glass
-*/
-
-position: absolute;
-width: 48px;
-height: 48px;
-left: 547px;
-top: 131px;
-
-
-
-/* Icon */
-
-position: absolute;
-left: 12.5%;
-right: 12.5%;
-top: 12.5%;
-bottom: 12.5%;
-
-border: 4px solid #1E1E1E;
-
-
-/* Search Your Coffee here */
-
-position: absolute;
-width: 592px;
-height: 44px;
-left: 611px;
-top: 129px;
-
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 36px;
-line-height: 44px;
-/* identical to box height */
-
-color: #000000;
-
-opacity: 0.31;
-
-
-/* support */
-
-position: absolute;
-width: 116px;
-height: 30px;
-left: 1601px;
-top: 28px;
-
-font-family: 'Inter';
-font-style: italic;
-font-weight: 500;
-font-size: 24px;
-line-height: 29px;
-
-color: #FFFFFF;
-
-
-
-/* Line 1 */
-
-position: absolute;
-width: 1691px;
-height: 0px;
-left: 19px;
-top: 219.5px;
-
-border: 1px solid #000000;
-
-
-/* Rectangle 3 */
-
-position: absolute;
-width: 1572px;
-height: 274px;
-left: 100px;
-top: 248px;
-
-background: #E9E9E9;
-
-
-/* Rectangle 4 */
-
-position: absolute;
-width: 374px;
-height: 233px;
-left: 131px;
-top: 266px;
-
-background: #311111;
-
-
-/* Rectangle 5 */
-
-position: absolute;
-width: 564px;
-height: 63px;
-left: 557px;
-top: 288px;
-
-background: #989191;
-
-
-/* Rectangle 6 */
-
-position: absolute;
-width: 558px;
-height: 110px;
-left: 563px;
-top: 365px;
-
-background: #161616;
-
-
-/* Rectangle 7 */
-
-position: absolute;
-width: 421px;
-height: 187px;
-left: 1217px;
-top: 288px;
-
-background: #893E3E;
-
-
-/* Rectangle 8 */
-
-position: absolute;
-width: 1572px;
-height: 274px;
-left: 100px;
-top: 562px;
-
-background: #D9D9D9;
-
-
-/* Rectangle 9 */
-
-position: absolute;
-width: 374px;
-height: 233px;
-left: 131px;
-top: 580px;
-
-background: #311111;
-
-
-/* Rectangle 10 */
-
-position: absolute;
-width: 564px;
-height: 70px;
-left: 557px;
-top: 595px;
-
-background: #752424;
-
-
-/* Rectangle 11 */
-
-position: absolute;
-width: 558px;
-height: 110px;
-left: 563px;
-top: 679px;
-
-background: #161616;
-
-
-/* Rectangle 12 */
-
-position: absolute;
-width: 421px;
-height: 187px;
-left: 1217px;
-top: 602px;
-
-background: #893E3E;
-
-
-/* Rectangle 13 */
-
-position: absolute;
-width: 1572px;
-height: 274px;
-left: 100px;
-top: 879px;
-
-background: #D9D9D9;
-
-
-/* Rectangle 14 */
-
-position: absolute;
-width: 374px;
-height: 233px;
-left: 131px;
-top: 897px;
-
-background: #311111;
-
-
-/* Rectangle 15 */
-
-position: absolute;
-width: 564px;
-height: 70px;
-left: 557px;
-top: 912px;
-
-background: #752424;
-
-
-/* Rectangle 16 */
-
-position: absolute;
-width: 558px;
-height: 110px;
-left: 563px;
-top: 996px;
-
-background: #161616;
-
-
-/* Rectangle 17 */
-
-position: absolute;
-width: 421px;
-height: 187px;
-left: 1217px;
-top: 919px;
-
-background: #893E3E;
-
-
-/* Frame 1 */
-
-position: absolute;
-width: 100px;
-height: 100px;
-left: 952px;
-top: 1103px;
-
-
-
-/* The Bhagour hotel */
-
-position: absolute;
-width: 381px;
-height: 46px;
-left: 571px;
-top: 292px;
-
-font-family: 'Inter';
-font-style: italic;
-font-weight: 500;
-font-size: 24px;
-line-height: 29px;
-
-color: #FFFFFF;
-
+.card {
+    display: grid;
+    background-color: #d9d9d9;
+    grid-template-columns: auto auto auto;
+    height: 150px;
+    margin-top: 50px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.part {
+    font-size: larger;
+    background-color: #636161;
+    height: 75px;
+    width: 150px;
+}
+
+#part1 img {
+    height: 100%;
+    width: 100%;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 70px auto 200px;
+    background-color: burlywood;
+    padding: 1px;
+    border-radius: 50px;
+    box-shadow: 5px 5px bisque;
+    text-shadow: 3px 2px blanchedalmond;
+    margin-bottom: 50px;
+}
+
+a {
+    font-size: x-large;
+    text-decoration: none;
+    color: black
+}
+
+#icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+.grid-container {
+    display: grid;
+    height: 230px;
+    /* grid-template-columns: [first_column] 120px [second_column] 300px  [third_column] 100px; */
+    grid-template-columns: [first_column] 1fr [second_column] 2fr [third_column] 1fr;
+    background-color: #C8BCA8;
+    grid-template-rows: [first_row] 100px [second_row] 100px;
+    gap: 5px;
+    place-content: center;
+}
+
+
+.grid-items1 {
+    background-color: blue;
+    grid-row: 1/3;
+    margin-left: 10px;
+}
+
+.grid-items2 {
+    background-color: firebrick;
+}
+
+.grid-items3 {
+    background-color: aquamarine;
+    grid-row: 1/3;
+    grid-column: 3/4;
+    margin-right: 10px;
+}
+
+.grid-items4 {
+    background-color: blueviolet;
+    grid-column: 2/3;
+}
+
+#cafe-image{
+    height: 100%;
+    width: 100%;
+}
